@@ -89,3 +89,5 @@ mean(simul100000>32)
 n <- 100
 sigma <- 5.7
 1-pchisq(32*(n-1)/sigma^2, n-1)
+
+##### !!!!! Ponemos N.A cuando no sabemos X, funcion no sea normal, o n<30!!!!!!
